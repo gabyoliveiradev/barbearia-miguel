@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family:'Heart' ;
+    src: url(Young\ Heart.otf);
+}
 
 
 body{
@@ -53,8 +57,13 @@ main > img {
 }
 main > div > h1{
     font-size: 3.7em;
+    font-family: 'Heart';
+    font-weight: normal;
+    padding: 20px;
 }
-
+main > div > a{
+    padding-bottom: 50px;
+}
 main > div > a > button{
     padding: 10px;
     width: 100%;
@@ -66,14 +75,15 @@ main#principal{
     margin-top: 0px;
     color: white;
     text-align: center;
-    background-color: ;
+    text-indent: 20px;
 }
 main#principal > h1{
     margin: 0px;
+    padding-top: 50px;
 
 }
-main#principal > h1 > img{
-    
+main#principal > h1 > p{
+    display: inline-block;
 }
 main#principal > h2{
 
