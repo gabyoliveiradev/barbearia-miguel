@@ -3,6 +3,10 @@
     font-family:'Heart' ;
     src: url(Young\ Heart.otf);
 }
+@font-face {
+    font-family: 'Texa' ;
+    src: url(texa-tango.otf);
+}
 
 
 body{
@@ -63,12 +67,14 @@ main > div > h1{
 }
 main > div > a{
     padding-bottom: 50px;
+    line-height: 4em;
 }
 main > div > a > button{
+    font-weight: bold;
     padding: 10px;
     width: 100%;
     color: white;
-    background-color: rgba(255, 14, 14, 0.829);
+    background-color: rgba(255, 14, 14, 0.534);
 }
 main#principal{
     background-color: rgba(0, 0, 0, 0.5) ;
