@@ -67,7 +67,7 @@ main > div > h1{
 }
 main > div > a{
     padding-bottom: 50px;
-    line-height: 4em;
+    line-height: 3em;
 }
 main > div > a > button{
     font-weight: bold;
