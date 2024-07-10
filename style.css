@@ -34,6 +34,7 @@ header > nav{
     padding: 20px;
     margin: 0px;
     font-weight: bold;
+    font-size: 0.5
 
 }
 header > nav a {
@@ -63,7 +64,7 @@ main > div{
     margin: 0px auto;
     padding: 20px;
     border-radius: 10px;
-    min-height: 83vh;
+    min-height: 83vh;
 
 }
 main > img {
@@ -94,6 +95,7 @@ main#principal{
     color: white;
     text-align: center;
     text-indent: 20px;
+    min-height: 83vh;
     
 }
 main#principal > div > h1{
