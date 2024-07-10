@@ -33,14 +33,15 @@ header > nav{
     padding-top: 10px;
     margin: 0px;
     font-weight: bold;
-    font-size: 0.5
+    font-size: 0.5;
 
 }
 header > nav a {
-    text-decoration: none;
-    color: lightgray;
+    text-decoration: solid;
+    color: white;
     padding: 5px;
     border-radius: 10px;
+    border-style: double;
 
 }
 header > nav > a:hover {
@@ -74,7 +75,7 @@ main > div > h1{
     font-family: 'Heart';
     font-weight: normal;
     padding: 20px;
-    color: lightgray;
+    color: white;
 }
 main > div > a{
     padding-bottom: 50px;
@@ -111,6 +112,7 @@ main#principal > div{
     max-width: 540px;
     background-color: rgba(0, 0, 0, 0.596);
     border-radius: 20px;
+    text-align: center;
 }
 main#principal > div > h2{
     color:rgba(255, 14, 14, 0.822) ;
