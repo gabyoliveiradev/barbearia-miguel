@@ -26,11 +26,14 @@ header{
     text-align: center;
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: center;
 
 }
 header > nav{
     padding: 20px;
     margin: 0px;
+    font-weight: bold;
 
 }
 header > nav a {
@@ -50,14 +53,18 @@ main{
 }
 
 main > div{
+
+
     text-align: center;
     color: white;
     font-weight: bolder;
     min-width: 320px;
     max-width: 540px;
-    margin: auto;
+    margin: 0px auto;
     padding: 20px;
     border-radius: 10px;
+    min-height: 83vh;
+
 }
 main > img {
     margin: 10px;
@@ -67,6 +74,7 @@ main > div > h1{
     font-family: 'Heart';
     font-weight: normal;
     padding: 20px;
+    color: lightgray;
 }
 main > div > a{
     padding-bottom: 50px;
@@ -90,7 +98,7 @@ main#principal{
 }
 main#principal > div > h1{
     margin: 0px;
-    
+    font-size: 2em;
     text-align: center;
     font-family: 'Texa';
     color: rgba(255, 14, 14, 0.822);
