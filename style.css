@@ -22,7 +22,7 @@ body{
 }
 header{
     background-color:rgba(0, 0, 0, 0.747);
-    height: 60px;
+    height: 40px;
     text-align: center;
     position: sticky;
     top: 0;
@@ -30,7 +30,7 @@ header{
 
 }
 header > nav{
-    padding: 20px;
+    padding-top: 10px;
     margin: 0px;
     font-weight: bold;
     font-size: 0.5
@@ -39,7 +39,7 @@ header > nav{
 header > nav a {
     text-decoration: none;
     color: lightgray;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
 
 }
