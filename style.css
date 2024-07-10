@@ -89,6 +89,9 @@ main > div > a > button{
     background-color: rgba(255, 14, 14, 0.534);
     border-radius: 15px;
 }
+main > div > a > button:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+}
 main#principal{
     background-color: rgba(0, 0, 0, 0.5) ;
     margin-top: 0px;
