@@ -135,11 +135,15 @@ main#principal > div  > p{
     font-weight: normal;
 }
 main > div#mapa, iframe{
-    min-width: 320px;
-    max-width: 540px;
-    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
 
 }
+main > div#mapa > h1{
+    padding: 0;
+}
+
 footer{
     background-color:rgb(0, 0, 0);
     height: 60px;
