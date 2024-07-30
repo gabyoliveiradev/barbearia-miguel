@@ -135,13 +135,9 @@ main#principal > div  > p{
     font-weight: normal;
 }
 main > div#mapa, iframe{
-    width: 300px;
+    width: 200px;
     height: 350px;
     border-radius: 10px;
-
-}
-main > div#mapa > h1{
-    padding: 0;
 }
 
 footer{
