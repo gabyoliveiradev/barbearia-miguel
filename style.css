@@ -134,6 +134,12 @@ main#principal > div  > p{
     font-family: sans-serif;
     font-weight: normal;
 }
+main > div#mapa, iframe{
+    min-width: 320px;
+    max-width: 540px;
+    border-radius: 20px;
+
+}
 footer{
     background-color:rgb(0, 0, 0);
     height: 60px;
